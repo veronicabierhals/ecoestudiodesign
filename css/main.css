@@ -12,7 +12,7 @@ body {
 }
 
 .largura-pagina {
-    max-width: 980px;
+    max-width: 1080px;
     margin: 0 auto;
 }
 
@@ -23,6 +23,9 @@ body {
     height: 60px;
 }
 
+.secao {
+    margin-bottom: 40px;
+}
 
 /*----estilos navegação e menu----*/
 
@@ -78,8 +81,9 @@ body {
 
 /*----estilos slider----*/
 
-.banner {
+.banner img {
     width: 100%;
+    border-radius: 20px;
 }
 
 .slick-initialized {
@@ -104,7 +108,7 @@ button.slick-next {
 
 button.slick-prev {
     background-image: url("../img/setaEsquerda.png");
-    margin-left: 15px;
+    margin-left: 70px;
 }
 
 button.slick-next {
@@ -115,7 +119,7 @@ button.slick-next {
 .slick-dots {
     width: 50%;
     position: absolute;
-    top: 500px;
+    top: 540px;
     left: 71%;
     transform: translateX(-50%);
 }
@@ -147,16 +151,19 @@ li.slick-active button {
 .portfolio {
     width: 100%;
     background-color: #ffffff;
-    height: 700px;
+    height: auto;
+    overflow: hidden;
 }
 
 .bloco-imagem img {
-    margin-top: 2em;
-    margin-bottom: 0.5em;
-    border-radius: 5%;
+    margin-top: 3em;
+    margin-bottom: 0em;
+    border-radius: 20px;
+    width: 100%;
+    height: auto;
 }
 
-/*----estilos servicos----*/
+/*----estilos servicos----
 .servicos {
     display: flex;
     flex-direction: column;
@@ -174,8 +181,8 @@ li.slick-active button {
     text-align: center;
     width: 30%;
 }
-
-/*----estilos sobre nós----*/
+*/
+/*----estilos sobre nós----
 
 .sobre-nos {
     display: flex;
