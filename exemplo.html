@@ -22,13 +22,16 @@ body, html {
 /* Full height image header */
 .bgimg-1 {
   background-position: center;
-  background-size: cover;
+  background-size: 97%;
+  background-repeat: no-repeat;
   background-image: url("/w3images/mac.jpg");
   min-height: 100%;
+  border-radius: 10px !important;
 }
 
 .work-section-images {
     border-radius: 10px;
+    margin: 3px;
   }
 
 .w3-bar .w3-button {
@@ -42,6 +45,8 @@ body, html {
   footer i {
   color: #ffffff;
 }
+
+
 </style>
 </head>
 <body>
@@ -70,18 +75,14 @@ body, html {
   <a href="#contact" onclick="w3_close()" class="w3-bar-item w3-button">CONTACT</a>
 </nav>
 
+
 <!-- Header with full-height image -->
-<header class="bgimg-1 w3-display-container w3-grayscale-min" id="home" style="background-image: url('./img/imagem\ background.jpg');">
+<header class="bgimg-1 w3-display-container w3-grayscale-min" id="home" style="background-image: url('./img/imagem background.jpg');">
   <div class="w3-display-left w3-text-white" style="padding:48px">
     <span class="w3-jumbo w3-hide-small">Start something that matters</span><br>
     <span class="w3-xxlarge w3-hide-large w3-hide-medium">Start something that matters</span><br>
     <span class="w3-large">Stop wasting valuable time with projects that just isn't you.</span>
   </div> 
-  <div class="w3-display-bottomleft w3-text-grey w3-large" style="padding:24px 48px">
-    <a href="URL_DO_SEU_FACEBOOK" target="_blank" class="w3-hover-opacity"><i class="fa fa-facebook-official"></i></a>
-    <a href="https://www.instagram.com/ecoestudiodesign/" target="_blank" class="w3-hover-opacity"><i class="fa fa-instagram"></i></a>
-    <a href="URL_DO_SEU_LINKEDIN" target="_blank" class="w3-hover-opacity"><i class="fa fa-linkedin"></i></a>
-  </div>
 </header>
 
 <!-- About Section 
@@ -204,27 +205,27 @@ body, html {
 
 <!-- Work Section -->
 <div class="w3-container" style="padding:128px 16px" id="work">
-  <div class="w3-row-padding" style="margin-top:64px">
-    <div class="w3-col l3 m6">
-        <img src="./img/giovanne.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity work-section-images" alt="Giovanne Steudel" id="img-1">
+  <div class="w3-row-padding" style="margin-top:05px">
+    <div class="w3-col l4 m4 s12">
+        <img src="./img/giovanne.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity work-section-images" alt="Giovanne Steudel">
     </div>
-    <div class="w3-col l3 m6">
-      <img src="./img/refugio do sol.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity work-section-images" alt="Refúgio do Sol" id="img-2">
+    <div class="w3-col l4 m4 s12">
+      <img src="./img/refugio do sol.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity work-section-images" alt="Refúgio do Sol">
     </div>
-    <div class="w3-col l3 m6">
-      <img src="./img/bee make.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity work-section-images" alt="Bee Make" id="img-3">
+    <div class="w3-col l4 m4 s12">
+      <img src="./img/bee make.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity work-section-images" alt="Bee Make">
     </div>
   </div>
 
   <div class="w3-row-padding w3-section">
-    <div class="w3-col l3 m6">
-      <img src="./img/humenhuk.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity work-section-images" alt="Humenhuk" id="img-4">
+    <div class="w3-col l4 m4 s12">
+      <img src="./img/humenhuk.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity work-section-images" alt="Humenhuk">
     </div>
-    <div class="w3-col l3 m6">
-      <img src="./img/art com farinha.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity work-section-images" alt="Art com Farinha" id="img-5">
+    <div class="w3-col l4 m4 s12">
+      <img src="./img/art com farinha.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity work-section-images" alt="Art com Farinha">
     </div>
-    <div class="w3-col l3 m6">
-      <img src="./img/akua.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity work-section-images" alt="Akua" id="img-6">
+    <div class="w3-col l4 m4 s12">
+      <img src="./img/akua.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity work-section-images" alt="Akua">
     </div>
   </div>
 </div>
@@ -324,13 +325,11 @@ body, html {
 -->
 
 <!-- Contact Section -->
-<div class="w3-container w3-light-grey" style="padding:128px 16px" id="contact">
+<div class="w3-container w3-light-grey" style="padding:40px 16px" id="contact">
   <h3 class="w3-center">Contatos</h3>
-  <p class="w3-center w3-large">Lets get in touch. Send us a message:</p>
-  <div style="margin-top:48px">
-    <p><img src="./img/icon whats.png" alt="WhatsApp" style="width: 28px; height: 28x; margin-right: 10px; color: #215aa8;"> WhatsApp: +55 (48) 99949 2109</p>
-    <p><img src="./img/icon email.png" alt="Email" style="width: 29px; height: 22px; margin-right: 10px; color: #215aa8;"> Email: ecoestudiodesign@gmail.com</p>
-    
+  <div class="w3-center" style="margin-top:15px">
+    <p><img src="./img/icon whats.png" alt="WhatsApp" style="width: 20px; height: 20px; margin-right: 5px; color: #215aa8;"> WhatsApp: +55 (48) 99949 2109</p>
+    <p><img src="./img/icon email.png" alt="Email" style="width: 21px; height: 15px; margin-right: 5px; color: #215aa8;"> Email: ecoestudiodesign@gmail.com</p>
     <br>
     <!--
     <form action="mailto:veronicabierhals1@gmail.com" target="_blank">
@@ -361,7 +360,7 @@ body, html {
  
 <script>
 
-/*
+<!--
 // Modal Image Gallery
 function onClick(element) {
   document.getElementById("img01").src = element.src;
@@ -369,46 +368,7 @@ function onClick(element) {
   var captionText = document.getElementById("caption");
   captionText.innerHTML = element.alt;
 }
-*/
-
-// Modal Image Gallery
-function onClick(element) {
-  var modal = document.getElementById("modal01");
-  var modalImg = document.getElementById("img01");
-  var captionText = document.getElementById("caption");
-
-  // Define o caminho da imagem no modal
-  modalImg.src = element.src;
-
-  // Obtém o ID da imagem clicada
-  var imgId = element.id;
-
-  // Adapte conforme necessário para corresponder aos IDs das suas imagens
-  switch (imgId) {
-    case "img-1":
-      captionText.innerHTML = "Descrição da imagem 1";
-      break;
-    case "img-2":
-      captionText.innerHTML = "Descrição da imagem 2";
-      break;
-      case "img-3":
-      captionText.innerHTML = "Descrição da imagem 1";
-      break;
-    case "img-4":
-      captionText.innerHTML = "Descrição da imagem 2";
-      break;
-      case "img-5":
-      captionText.innerHTML = "Descrição da imagem 1";
-      break;
-    case "img-6":
-      captionText.innerHTML = "Descrição da imagem 2";
-      break;
-    default:
-      captionText.innerHTML = "";
-  }
-
-  modal.style.display = "block";
-}
+-->
 
 // Toggle between showing and hiding the sidebar when clicking the menu icon
 var mySidebar = document.getElementById("mySidebar");
