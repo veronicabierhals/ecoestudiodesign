@@ -108,7 +108,7 @@ button.slick-next {
 
 /*----estilos portfolio----*/
 
-.portfolio {
+#portfolio {
     width: 100%;
     background-color: #ffffff;
     height: auto;
@@ -130,7 +130,7 @@ button.slick-next {
 }
 
 /*----estilos contatos----*/
-.contatos {
+#contatos {
     width: 100%;
     height: auto;
     overflow: hidden;
