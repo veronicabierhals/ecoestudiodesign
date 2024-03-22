@@ -3,6 +3,7 @@
     .menu {
         width: 100%;
     }
+
     body {
         font-size: 14px;
     }
@@ -31,7 +32,7 @@ body {
 .cabecalho,
 .footer {
     width: 100%;
-    background-color: #215aa8;
+    background-color: #000000;
     height: 60px;
 }
 
@@ -71,7 +72,7 @@ body {
     font-weight: 500;
     font-size: 16px;
     text-transform: uppercase;
-    letter-spacing: 2px;
+    letter-spacing: 1px;
 }
 
 /*traço embaixo do link*/
@@ -155,6 +156,19 @@ button.slick-next {
     line-height: 20px;
     letter-spacing: 2px;
 }
+
+.email a {
+    text-decoration: none;
+}
+
+
+.duasColunas {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-column-gap: 20px;
+    margin-bottom: 20px;
+}
+
 
 /* Estilos para telas menores que 600px */
 @media only screen and (max-width: 600px) {
