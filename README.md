@@ -1,4 +1,4 @@
-# Documentação
+# Ferramentas
 ## HTML
 https://www.w3schools.com/html/default.asp
 
@@ -14,3 +14,12 @@ https://www.w3schools.com/css/css_pseudo_elements.asp
 
 ## Css transitions
 https://www.w3schools.com/css/css3_transitions.asp
+
+## React  
+https://react.dev/
+
+## Vite
+https://vitejs.dev/
+
+## Bootstrap
+https://getbootstrap.com/
