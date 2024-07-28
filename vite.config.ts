@@ -15,6 +15,6 @@ export default defineConfig(({ command }) => {
         }
       }
     },
-    base: command === 'build' ? '/ecoestudiodesign/' : '/'
+    base: command === 'build' ? '/ecoestudiodesign' : '/'
   }
 })
