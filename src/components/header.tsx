@@ -1,6 +1,10 @@
+import React from 'react'
 import { Link } from 'react-router-dom'
 
-const Header = () => {
+const Header: React.FC = () => {
+  const basePath =
+    process.env.NODE_ENV === 'production' ? '/ecoestudiodesign' : ''
+
   return (
     <header className='cabecalho d-flex flex-column mb-lg-auto'>
       <section className='container largura-pagina d-flex flex-row py-4'>
@@ -9,7 +13,7 @@ const Header = () => {
             <img
               alt='Ecoe Studio Design'
               title='Ecoe Studio Design'
-              src='/img/logo20px.png'
+              src={`${basePath}/img/logo20px.png`}
             />
           </Link>
         </div>
@@ -28,10 +32,13 @@ const Header = () => {
 
         <div className='redes-sociais d-flex flex-wrap flex-fill justify-content-end'>
           <a href='https://www.instagram.com/ecoestudiodesign/'>
-          <img src='/img/whatsicon.png' />
+            <img src={`${basePath}/img/whatsicon.png`} alt='WhatsApp Icon' />
           </a>
           <a href='https://www.instagram.com/ecoestudiodesign/'>
-          <img src='/img/instaicon20px.png' /> 
+            <img
+              src={`${basePath}/img/instaicon20px.png`}
+              alt='Instagram Icon'
+            />
           </a>
         </div>
       </section>

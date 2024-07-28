@@ -1,11 +1,13 @@
-import React from 'react'
-import { Carousel } from 'react-bootstrap'
+import React from 'react';
+import { Carousel } from 'react-bootstrap';
 
 const Slider: React.FC = () => {
+  const basePath = process.env.NODE_ENV === 'production' ? '/ecoestudiodesign' : '';
+
   const carouselItems = [
-    { src: '/img/banner1.png', alt: 'Slide 1' },
-    { src: '/img/banner2.png', alt: 'Slide 2' },   
-  ]
+    { src: `${basePath}/img/banner1.png`, alt: 'Slide 1' },
+    { src: `${basePath}/img/banner2.png`, alt: 'Slide 2' },   
+  ];
 
   return (
     <Carousel className='container largura-pagina custom-carousel banner pt-4'>
@@ -15,7 +17,7 @@ const Slider: React.FC = () => {
         </Carousel.Item>
       ))}
     </Carousel>
-  )
+  );
 }
 
-export default Slider
+export default Slider;

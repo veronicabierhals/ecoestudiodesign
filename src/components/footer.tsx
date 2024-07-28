@@ -1,4 +1,9 @@
-const Footer = () => {
+import React from 'react'
+
+const Footer: React.FC = () => {
+  const basePath =
+    process.env.NODE_ENV === 'production' ? '/ecoestudiodesign' : ''
+
   return (
     <footer>
       <section className='footer p-2'>
@@ -7,7 +12,7 @@ const Footer = () => {
             <img
               alt='Ecoe Studio Design'
               title='Ecoe Studio Design'
-              src='/img/logo20px.png'
+              src={`${basePath}/img/logo20px.png`}
             />
           </div>
           <div className='email mb-3 mb-md-0'>
@@ -17,16 +22,23 @@ const Footer = () => {
           </div>
           <div className='redes-sociais'>
             <a href='https://www.instagram.com/ecoestudiodesign/'>
-              <img className='me-2' src='/img/whatsicon.png' />
+              <img
+                className='me-2'
+                src={`${basePath}/img/whatsicon.png`}
+                alt='WhatsApp Icon'
+              />
             </a>
             <a href='https://www.instagram.com/ecoestudiodesign/'>
-              <img src='/img/instaicon20px.png' />
+              <img
+                src={`${basePath}/img/instaicon20px.png`}
+                alt='Instagram Icon'
+              />
             </a>
           </div>
         </div>
       </section>
     </footer>
-  );
+  )
 }
 
-export default Footer;
+export default Footer
