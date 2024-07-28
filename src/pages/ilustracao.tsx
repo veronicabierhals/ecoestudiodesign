@@ -22,34 +22,6 @@ const Ilustracao: React.FC = () => {
               alt='Descrição da imagem'
             />
           </div>
-          <div className='col-md-6 py-4 py-md-0'>
-            <img
-              className='img-fluid w-100 rounded-3'
-              src={`${basePath}/img/ilustracao/17.png`}
-              alt='Descrição da imagem'
-            />
-          </div>
-          <div className='col-md-6 py-4 py-md-0'>
-            <img
-              className='img-fluid w-100 rounded-3'
-              src={`${basePath}/img/ilustracao/18.png`}
-              alt='Descrição da imagem'
-            />
-          </div>
-          <div className='col-md-6 py-4 py-md-0'>
-            <img
-              className='img-fluid w-100 rounded-3'
-              src={`${basePath}/img/ilustracao/19.png`}
-              alt='Descrição da imagem'
-            />
-          </div>
-          <div className='col-md-6 py-4 py-md-0'>
-            <img
-              className='img-fluid w-100 rounded-3'
-              src={`${basePath}/img/ilustracao/20.png`}
-              alt='Descrição da imagem'
-            />
-          </div>
         </div>
       </section>
     </main>

@@ -7,31 +7,35 @@ const Footer: React.FC = () => {
   return (
     <footer>
       <section className='footer p-2'>
-        <div className='container largura-pagina d-flex flex-column flex-md-row align-items-center justify-content-center justify-content-md-between'>
-          <div className='logo mb-3 mb-md-0'>
+        <div className='container d-flex align-items-center justify-content-between p-2'>
+          <div className='logo d-flex align-items-center mb-md-0'>
             <img
               alt='Ecoe Studio Design'
               title='Ecoe Studio Design'
               src={`${basePath}/img/logo20px.png`}
+              className='me-3'
             />
           </div>
-          <div className='email mb-3 mb-md-0'>
-            <a href='mailto:veronicabierhals1@gmail.com?subject=&body='>
-              <p>ecoestudiodesign@gmail.com</p>
-            </a>
-          </div>
-          <div className='redes-sociais'>
-            <a href='https://www.instagram.com/ecoestudiodesign/'>
+          <div className='redes-sociais d-flex align-items-center'>
+            <a
+              href='https://www.instagram.com/ecoestudiodesign/'
+              className='me-2'
+              aria-label='WhatsApp'
+            >
               <img
-                className='me-2'
                 src={`${basePath}/img/whatsicon.png`}
                 alt='WhatsApp Icon'
+                className='d-inline-block'
               />
             </a>
-            <a href='https://www.instagram.com/ecoestudiodesign/'>
+            <a
+              href='https://www.instagram.com/ecoestudiodesign/'
+              aria-label='Instagram'
+            >
               <img
                 src={`${basePath}/img/instaicon20px.png`}
                 alt='Instagram Icon'
+                className='d-inline-block'
               />
             </a>
           </div>

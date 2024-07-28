@@ -11,6 +11,20 @@ const SocialMedia: React.FC = () => {
           <div className='col-md-6 py-4 py-md-0'>
             <img
               className='img-fluid w-100 rounded-4'
+              src={`${basePath}/img/social Media/13aline7.jpg`}
+              alt='Descrição da imagem'
+            />
+          </div>
+          <div className='col-md-6 py-4 py-md-0'>
+            <img
+              className='img-fluid w-100 rounded-4'
+              src={`${basePath}/img/social Media/14aline8.jpg`}
+              alt='Descrição da imagem'
+            />
+          </div>
+          <div className='col-md-6 py-4 py-md-0'>
+            <img
+              className='img-fluid w-100 rounded-4'
               src={`${basePath}/img/social Media/1.png`}
               alt='Descrição da imagem'
             />
@@ -19,13 +33,6 @@ const SocialMedia: React.FC = () => {
             <img
               className='img-fluid w-100 rounded-4'
               src={`${basePath}/img/social Media/2tsuma3.png`}
-              alt='Descrição da imagem'
-            />
-          </div>
-          <div className='col-md-6 py-4 py-md-0'>
-            <img
-              className='img-fluid w-100 rounded-4'
-              src={`${basePath}/img/social Media/3tsuma4.png`}
               alt='Descrição da imagem'
             />
           </div>
@@ -60,13 +67,6 @@ const SocialMedia: React.FC = () => {
           <div className='col-md-6 py-4 py-md-0'>
             <img
               className='img-fluid w-100 rounded-4'
-              src={`${basePath}/img/social Media/8arteFarinha.png`}
-              alt='Descrição da imagem'
-            />
-          </div>
-          <div className='col-md-6 py-4 py-md-0'>
-            <img
-              className='img-fluid w-100 rounded-4'
               src={`${basePath}/img/social Media/9.png`}
               alt='Descrição da imagem'
             />
@@ -74,21 +74,7 @@ const SocialMedia: React.FC = () => {
           <div className='col-md-6 py-4 py-md-0'>
             <img
               className='img-fluid w-100 rounded-4'
-              src={`${basePath}/img/social Media/10.png`}
-              alt='Descrição da imagem'
-            />
-          </div>
-          <div className='col-md-6 py-4 py-md-0'>
-            <img
-              className='img-fluid w-100 rounded-4'
               src={`${basePath}/img/social Media/12.jpg`}
-              alt='Descrição da imagem'
-            />
-          </div>
-          <div className='col-md-6 py-4 py-md-0'>
-            <img
-              className='img-fluid w-100 rounded-4'
-              src={`${basePath}/img/social Media/13aline7.jpg`}
               alt='Descrição da imagem'
             />
           </div>
