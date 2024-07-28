@@ -1,5 +1,4 @@
-@import '~bootstrap/dist/css/bootstrap.min.css' /*----estilos de container----*/
-  body {
+body {
   font-size: 16px;
   width: 100%;
   height: 100%;
@@ -25,6 +24,12 @@
 
 .secao {
   margin-bottom: 30px;
+}
+
+.img-dimensao {
+  
+  max-width: 300px; /* Ajuste a largura máxima conforme necessário */
+  height: auto; /* Mantém a proporção da imagem */
 }
 
 /*----estilos navegação e menu----*/
@@ -70,7 +75,6 @@
 .custom-carousel .carousel-indicators {
   display: none;
 }
-
 
 /*----estilos portfolio----*/
 
