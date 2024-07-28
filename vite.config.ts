@@ -3,10 +3,8 @@ import react from '@vitejs/plugin-react'
 
 export default defineConfig({
   plugins: [react()],
-  resolve: {
-    alias: {
-      jquery: 'jquery/src/jquery'
-    }
+  server: {
+    open: true
   },
   css: {
     preprocessorOptions: {
@@ -15,5 +13,5 @@ export default defineConfig({
       }
     }
   },
-  base: '/ecoestudiodesign/'
+  base: '/'
 })

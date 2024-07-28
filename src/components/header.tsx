@@ -1,5 +1,4 @@
 import { Link } from 'react-router-dom'
-import '../../public/css/main.css'
 
 const Header = () => {
   return (
@@ -10,7 +9,7 @@ const Header = () => {
             <img
               alt='Ecoe Studio Design'
               title='Ecoe Studio Design'
-              src='../../public/img/logo 20px.png'
+              src='/img/logo20px.png'
             />
           </Link>
         </div>
@@ -29,10 +28,10 @@ const Header = () => {
 
         <div className='redes-sociais d-flex flex-wrap flex-fill justify-content-end'>
           <a href='https://www.instagram.com/ecoestudiodesign/'>
-            <img src='/img/whats icon.png' />
+          <img src='/img/whatsicon.png' />
           </a>
           <a href='https://www.instagram.com/ecoestudiodesign/'>
-            <img src='/img/insta icon 20px.png' />
+          <img src='/img/instaicon20px.png' /> 
           </a>
         </div>
       </section>

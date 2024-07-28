@@ -3,8 +3,8 @@ import { Carousel } from 'react-bootstrap'
 
 const Slider: React.FC = () => {
   const carouselItems = [
-    { src: '../../public/img/banner1.png', alt: 'Slide 1' },
-    { src: '../../public/img/banner2.png', alt: 'Slide 2' },   
+    { src: '/img/banner1.png', alt: 'Slide 1' },
+    { src: '/img/banner2.png', alt: 'Slide 2' },   
   ]
 
   return (

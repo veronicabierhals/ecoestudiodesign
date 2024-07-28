@@ -1,44 +1,42 @@
-import { Link } from "react-router-dom"
+import { Link } from 'react-router-dom';
 
 const Portfolio = () => {
   return (
-    <div id='portfolio' className='d-flex flex-wrap py-4'>
-      <section className='container largura-pagina bloco-imagem'>
-        <div>
-          <Link to='/giovanne'>
-            <img src='/img/giovanne.jpg' />
+    <div id="portfolio" className="container py-4">
+      <div className="row gx-4 gy-4">
+        <div className="col-md-4 col-sm-6">
+          <Link to="/giovanne">
+            <img className="img-fluid w-100 rounded-4" src="/img/giovanne.jpg" alt="Giovanne" />
           </Link>
         </div>
-        <div>
-          <Link to='/refugioDoSol'>
-            <img src='/img/refugio do sol.jpg' />
+        <div className="col-md-4 col-sm-6">
+          <Link to="/refugioDoSol">
+            <img className="img-fluid w-100 rounded-4" src="/img/refugio do sol.jpg" alt="Refugio do Sol" />
           </Link>
         </div>
-        <div>
-          <Link to='/laJanda'>
-            <img src='/img/laJanda/laJandaCapa.png' />
+        <div className="col-md-4 col-sm-6">
+          <Link to="/laJanda">
+            <img className="img-fluid w-100 rounded-4" src="/img/laJanda/laJandaCapa.png" alt="La Janda" />
           </Link>
         </div>
-      </section>
-      <section className='container largura-pagina bloco-imagem pt-3'>
-        <div>
-          <Link to='/humenhuk'>
-            <img src='/img/humenhuk.png' />
+        <div className="col-md-4 col-sm-6">
+          <Link to="/humenhuk">
+            <img className="img-fluid w-100 rounded-4" src="/img/humenhuk.png" alt="Humenhuk" />
           </Link>
         </div>
-        <div>
-          <Link to='/artComFarinha'>
-            <img src='/img/art com farinha.jpg' />
+        <div className="col-md-4 col-sm-6">
+          <Link to="/artComFarinha">
+            <img className="img-fluid w-100 rounded-4" src="/img/art com farinha.jpg" alt="Art com Farinha" />
           </Link>
         </div>
-        <div>
-          <Link to='/aline'>
-            <img src='/img/aline/alineCapa.png' />
+        <div className="col-md-4 col-sm-6">
+          <Link to="/aline">
+            <img className="img-fluid w-100 rounded-4" src="/img/aline/alineCapa.png" alt="Aline" />
           </Link>
         </div>
-      </section>
+      </div>
     </div>
-  )
+  );
 }
 
-export default Portfolio
+export default Portfolio;
