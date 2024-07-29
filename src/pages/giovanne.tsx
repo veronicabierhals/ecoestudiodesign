@@ -34,6 +34,20 @@ const Giovanne: React.FC = () => {
               <div className='col-12 py-1 py-md-3'>
                 <img
                   className='img-fluid w-100 rounded-4'
+                  src={`${basePath}/img/giovanne/giovanne5.png`}
+                  alt='Imagem 3'
+                />
+              </div>
+              <div className='col-12 py-1 py-md-3'>
+                <img
+                  className='img-fluid w-100 rounded-4'
+                  src={`${basePath}/img/giovanne/giovanne6.png`}
+                  alt='Imagem 3'
+                />
+              </div>
+              <div className='col-12 py-1 py-md-3'>
+                <img
+                  className='img-fluid w-100 rounded-4'
                   src={`${basePath}/img/giovanne/giovanne7.jpeg`}
                   alt='Imagem 4'
                 />

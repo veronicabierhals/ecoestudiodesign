@@ -19,6 +19,13 @@ const ArtComFarinha: React.FC = () => {
               <div className='col-12 py-1 py-md-3'>
                 <img
                   className='img-fluid w-100 rounded-4'
+                  src={`${basePath}/img/artComFarinha/art6.png`}
+                  alt='Imagem 2'
+                />
+              </div>
+              <div className='col-12 py-1 py-md-3'>
+                <img
+                  className='img-fluid w-100 rounded-4'
                   src={`${basePath}/img/artComFarinha/art7.png`}
                   alt='Imagem 2'
                 />
