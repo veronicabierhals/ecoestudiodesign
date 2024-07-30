@@ -1,9 +1,6 @@
 import React from 'react'
 
 const SocialMedia: React.FC = () => {
-  const basePath =
-    process.env.NODE_ENV === 'production' ? '/ecoestudiodesign' : ''
-
   return (
     <main className='container py-4'>
       <section>
@@ -11,70 +8,70 @@ const SocialMedia: React.FC = () => {
           <div className='col-md-6 py-4 py-md-0'>
             <img
               className='img-fluid w-100 rounded-4'
-              src={`${basePath}/img/social Media/13aline7.jpg`}
+              src='/img/social Media/13aline7.jpg'
               alt='Descrição da imagem'
             />
           </div>
           <div className='col-md-6 py-4 py-md-0'>
             <img
               className='img-fluid w-100 rounded-4'
-              src={`${basePath}/img/social Media/14aline8.jpg`}
+              src='/img/social Media/14aline8.jpg'
               alt='Descrição da imagem'
             />
           </div>
           <div className='col-md-6 py-4 py-md-0'>
             <img
               className='img-fluid w-100 rounded-4'
-              src={`${basePath}/img/social Media/1.png`}
+              src='/img/social Media/1.png'
               alt='Descrição da imagem'
             />
           </div>
           <div className='col-md-6 py-4 py-md-0'>
             <img
               className='img-fluid w-100 rounded-4'
-              src={`${basePath}/img/social Media/2tsuma3.png`}
+              src='/img/social Media/2tsuma3.png'
               alt='Descrição da imagem'
             />
           </div>
           <div className='col-md-6 py-4 py-md-0'>
             <img
               className='img-fluid w-100 rounded-4'
-              src={`${basePath}/img/social Media/4tsuma2.png`}
+              src='/img/social Media/4tsuma2.png'
               alt='Descrição da imagem'
             />
           </div>
           <div className='col-md-6 py-4 py-md-0'>
             <img
               className='img-fluid w-100 rounded-4'
-              src={`${basePath}/img/social Media/5tsuma6.png`}
+              src='/img/social Media/5tsuma6.png'
               alt='Descrição da imagem'
             />
           </div>
           <div className='col-md-6 py-4 py-md-0'>
             <img
               className='img-fluid w-100 rounded-4'
-              src={`${basePath}/img/social Media/6tsuma5.png`}
+              src='/img/social Media/6tsuma5.png'
               alt='Descrição da imagem'
             />
           </div>
           <div className='col-md-6 py-4 py-md-0'>
             <img
               className='img-fluid w-100 rounded-4'
-              src={`${basePath}/img/social Media/7.png`}
+              src='/img/social Media/7.png'
               alt='Descrição da imagem'
             />
           </div>
           <div className='col-md-6 py-4 py-md-0'>
             <img
               className='img-fluid w-100 rounded-4'
-              src={`${basePath}/img/social Media/9.png`}
+              src='/img/social Media/9.png'
               alt='Descrição da imagem'
             />
           </div>
           <div className='col-md-6 py-4 py-md-0'>
             <img
               className='img-fluid w-100 rounded-4'
-              src={`${basePath}/img/social Media/12.jpg`}
+              src='/img/social Media/12.jpg'
               alt='Descrição da imagem'
             />
           </div>

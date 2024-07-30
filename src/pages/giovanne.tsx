@@ -1,9 +1,6 @@
 import React from 'react'
 
 const Giovanne: React.FC = () => {
-  const basePath =
-    process.env.NODE_ENV === 'production' ? '/ecoestudiodesign' : ''
-
   return (
     <>
       <main>
@@ -13,70 +10,70 @@ const Giovanne: React.FC = () => {
               <div className='col-12 py-1 py-md-3'>
                 <img
                   className='img-fluid w-100 rounded-4'
-                  src={`${basePath}/img/giovanne/giovanne1.jpeg`}
+                  src='/img/giovanne/giovanne1.jpeg'
                   alt='Imagem 1'
                 />
               </div>
               <div className='col-12 py-1 py-md-3'>
                 <img
                   className='img-fluid w-100 rounded-4'
-                  src={`${basePath}/img/giovanne/giovanne3.jpeg`}
+                  src='/img/giovanne/giovanne3.jpeg'
                   alt='Imagem 2'
                 />
               </div>
               <div className='col-12 py-1 py-md-3'>
                 <img
                   className='img-fluid w-100 rounded-4'
-                  src={`${basePath}/img/giovanne/giovanne4.jpeg`}
+                  src='/img/giovanne/giovanne4.jpeg'
                   alt='Imagem 3'
                 />
               </div>
               <div className='col-12 py-1 py-md-3'>
                 <img
                   className='img-fluid w-100 rounded-4'
-                  src={`${basePath}/img/giovanne/giovanne5.png`}
+                  src='/img/giovanne/giovanne5.png'
                   alt='Imagem 3'
                 />
               </div>
               <div className='col-12 py-1 py-md-3'>
                 <img
                   className='img-fluid w-100 rounded-4'
-                  src={`${basePath}/img/giovanne/giovanne6.png`}
+                  src='/img/giovanne/giovanne6.png'
                   alt='Imagem 3'
                 />
               </div>
               <div className='col-12 py-1 py-md-3'>
                 <img
                   className='img-fluid w-100 rounded-4'
-                  src={`${basePath}/img/giovanne/giovanne7.jpeg`}
+                  src='/img/giovanne/giovanne7.jpeg'
                   alt='Imagem 4'
                 />
               </div>
               <div className='col-12 py-1 py-md-3'>
                 <img
                   className='img-fluid w-100 rounded-4'
-                  src={`${basePath}/img/giovanne/giovanne8.jpeg`}
+                  src='/img/giovanne/giovanne8.jpeg'
                   alt='Imagem 5'
                 />
               </div>
               <div className='col-12 py-1 py-md-3'>
                 <img
                   className='img-fluid w-100 rounded-4'
-                  src={`${basePath}/img/giovanne/giovanne9.jpeg`}
+                  src='/img/giovanne/giovanne9.jpeg'
                   alt='Imagem 6'
                 />
               </div>
               <div className='col-12 py-1 py-md-3'>
                 <img
                   className='img-fluid w-100 rounded-4'
-                  src={`${basePath}/img/giovanne/giovanne10.jpeg`}
+                  src='/img/giovanne/giovanne10.jpeg'
                   alt='Imagem 7'
                 />
               </div>
               <div className='col-12 py-1 py-md-3'>
                 <img
                   className='img-fluid w-100 rounded-4'
-                  src={`${basePath}/img/giovanne/giovanne11.jpeg`}
+                  src='/img/giovanne/giovanne11.jpeg'
                   alt='Imagem 8'
                 />
               </div>

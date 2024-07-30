@@ -13,7 +13,7 @@ import Aline from './pages/aline'
 
 const App = () => {
   return (
-    <Router basename="/ecoestudiodesign">
+    <Router>
       <div>
         <Header />
         <Routes>

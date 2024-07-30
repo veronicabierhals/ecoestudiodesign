@@ -1,5 +1,5 @@
 {
-  "homepage":"https://ecoestudiodesign.com.br",
+  "homepage": "https://www.ecoestudiodesign.com.br",
   "name": "my-react-project",
   "private": true,
   "version": "0.0.0",
@@ -7,6 +7,7 @@
   "scripts": {
     "dev": "vite",
     "build": "tsc -b && vite build",
+    "postbuild": "node add-404.mjs",
     "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview",
     "predeploy": "npm run build && cp CNAME dist/CNAME",

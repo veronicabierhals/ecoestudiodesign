@@ -1,8 +1,6 @@
 import React from 'react'
 
 const RefugioDoSol: React.FC = () => {
-  const basePath =
-    process.env.NODE_ENV === 'production' ? '/ecoestudiodesign' : ''
   return (
     <>
       <main>
@@ -29,7 +27,7 @@ const RefugioDoSol: React.FC = () => {
                 <div key={index} className='col-12 py-1 py-md-3'>
                   <img
                     className='img-fluid w-100 rounded-4'
-                    src={`${basePath}/img/refugio/${img}`}
+                    src={`/img/refugio/${img}`}
                     alt={`Imagem ${index + 1}`}
                   />
                 </div>

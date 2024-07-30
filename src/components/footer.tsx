@@ -1,9 +1,6 @@
 import React from 'react'
 
 const Footer: React.FC = () => {
-  const basePath =
-    process.env.NODE_ENV === 'production' ? '/ecoestudiodesign' : ''
-
   return (
     <footer>
       <section className='footer p-2'>
@@ -12,7 +9,7 @@ const Footer: React.FC = () => {
             <img
               alt='Ecoe Studio Design'
               title='Ecoe Studio Design'
-              src={`${basePath}/img/logo20px.png`}
+              src='/img/logo20px.png'
               className='me-3'
             />
           </div>
@@ -23,7 +20,7 @@ const Footer: React.FC = () => {
               aria-label='WhatsApp'
             >
               <img
-                src={`${basePath}/img/whatsicon.png`}
+                src='/img/whatsicon.png'
                 alt='WhatsApp Icon'
                 className='d-inline-block'
               />
@@ -33,7 +30,7 @@ const Footer: React.FC = () => {
               aria-label='Instagram'
             >
               <img
-                src={`${basePath}/img/instaicon20px.png`}
+                src='/img/instaicon20px.png'
                 alt='Instagram Icon'
                 className='d-inline-block'
               />

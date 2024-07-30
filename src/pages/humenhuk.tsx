@@ -1,8 +1,6 @@
 import React from 'react'
 
 const Humenhuk: React.FC = () => {
-  const basePath =
-    process.env.NODE_ENV === 'production' ? '/ecoestudiodesign' : ''
   return (
     <>
       <main>
@@ -23,7 +21,7 @@ const Humenhuk: React.FC = () => {
                 <div key={index} className='col-12 py-1 py-md-3'>
                   <img
                     className='img-fluid w-100 rounded-4'
-                    src={`${basePath}/img/humenhuk/${img}`}
+                    src={`/img/humenhuk/${img}`}
                     alt={`Imagem ${index + 1}`}
                   />
                 </div>
