@@ -14,6 +14,15 @@ export default defineConfig(({ command }) => {
         }
       }
     },
+    build: {
+      rollupOptions: {
+        output: {
+          entryFileNames: 'assets/[name]-[hash].js',
+          chunkFileNames: 'assets/[name]-[hash].js',
+          assetFileNames: 'assets/[name]-[hash].[ext]',
+        },
+      },
+    },
     base: command === 'build' ? '/ecoestudiodesign/' : '/'
   }
 })

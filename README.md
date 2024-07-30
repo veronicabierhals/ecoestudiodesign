@@ -23,3 +23,10 @@ https://vitejs.dev/
 
 ## Bootstrap
 https://getbootstrap.com/
+
+## Para preparar código
+````
+npm run predeploy
+npm run deploy
+````
+
