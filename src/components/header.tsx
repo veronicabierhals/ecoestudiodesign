@@ -28,14 +28,11 @@ const Header: React.FC = () => {
         </nav>
 
         <div className='redes-sociais d-flex flex-wrap flex-fill justify-content-end'>
-          <a href='https://www.instagram.com/ecoestudiodesign/'>
+          <a href='https://wa.me/554899492109?text='>
             <img src='/img/whatsicon.png' alt='WhatsApp Icon' />
           </a>
           <a href='https://www.instagram.com/ecoestudiodesign/'>
-            <img
-              src='/img/instaicon20px.png'
-              alt='Instagram Icon'
-            />
+            <img src='/img/instaicon20px.png' alt='Instagram Icon' />
           </a>
         </div>
       </section>

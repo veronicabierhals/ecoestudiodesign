@@ -15,7 +15,7 @@ const Footer: React.FC = () => {
           </div>
           <div className='redes-sociais d-flex align-items-center'>
             <a
-              href='https://www.instagram.com/ecoestudiodesign/'
+              href='https://wa.me/554899492109?text='
               className='me-2'
               aria-label='WhatsApp'
             >
