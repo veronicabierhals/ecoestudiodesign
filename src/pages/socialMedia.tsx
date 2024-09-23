@@ -8,28 +8,14 @@ const SocialMedia: React.FC = () => {
           <div className='col-md-6 py-4 py-md-0'>
             <img
               className='img-fluid w-100 rounded-4'
-              src='/img/social Media/tubets1.jpg'
+              src='/img/artComFarinha/art6.png'
               alt='Descrição da imagem'
             />
           </div>
           <div className='col-md-6 py-4 py-md-0'>
             <img
               className='img-fluid w-100 rounded-4'
-              src='/img/social Media/tubets2.jpg'
-              alt='Descrição da imagem'
-            />
-          </div>
-          <div className='col-md-6 py-4 py-md-0'>
-            <img
-              className='img-fluid w-100 rounded-4'
-              src='/img/artComFarinha/art6.jpg'
-              alt='Descrição da imagem'
-            />
-          </div>
-          <div className='col-md-6 py-4 py-md-0'>
-            <img
-              className='img-fluid w-100 rounded-4'
-              src='/img/artComFarinha/art7.jpg'
+              src='/img/artComFarinha/art7.png'
               alt='Descrição da imagem'
             />
           </div>
