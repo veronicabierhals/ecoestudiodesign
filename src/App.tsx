@@ -10,10 +10,12 @@ import LaJanda from './pages/laJanda'
 import Humenhuk from './pages/humenhuk'
 import ArtComFarinha from './pages/artComFarinha'
 import Aline from './pages/aline'
+import ScrollToTop from './components/scrollToTop'
 
 const App = () => {
   return (
     <Router>
+      <ScrollToTop />
       <div>
         <Header />
         <Routes>
